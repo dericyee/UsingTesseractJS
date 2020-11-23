@@ -12,7 +12,7 @@
 <body>
     <script>
         Tesseract.recognize(
-            'imagetext.png',
+            'invoice-example.png',
             'eng',
             { logger: m => console.log(m) }
         ).then(({ data: { text } }) => {
